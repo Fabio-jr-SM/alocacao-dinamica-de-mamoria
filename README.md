@@ -59,7 +59,7 @@ int main() {
         matriz[i] = (int *)malloc(colunas * sizeof(int));
         if (matriz[i] == NULL) {
             printf("Falha na alocação de memória para as colunas da matriz.\n");
-            return 1;
+            return 1; 
         }
     }
 
