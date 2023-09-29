@@ -1,11 +1,10 @@
 # alocacao-dinamica-de-mamoria
 
-Claro! Em C, você pode alocar memória dinamicamente usando as funções malloc para alocar memória para um vetor (array unidimensional) e malloc ou calloc para alocar memória para uma matriz (array bidimensional). Aqui estão exemplos de como fazer isso:
+## Em C, você pode alocar memória dinamicamente usando as funções malloc para alocar memória para um vetor (array unidimensional) e malloc ou calloc para alocar memória para uma matriz (array bidimensional). Aqui estão exemplos de como fazer isso:
 
-Alocação de Memória para um Vetor (Array Unidimensional):
+### Alocação de Memória para um Vetor (Array Unidimensional):
 
-c
-Copy code
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -33,10 +32,10 @@ int main() {
 
     return 0;
 }
-Alocação de Memória para uma Matriz (Array Bidimensional):
+```
+### Alocação de Memória para uma Matriz (Array Bidimensional):
 
-c
-Copy code
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -79,4 +78,5 @@ int main() {
 
     return 0;
 }
-Lembre-se de que, após a alocação dinâmica de memória, é importante liberar essa memória usando free para evitar vazamentos de memória quando você não precisar mais dos arrays alocados dinamicamente.
+```
+### Lembre-se de que, após a alocação dinâmica de memória, é importante liberar essa memória usando free para evitar vazamentos de memória quando você não precisar mais dos arrays alocados dinamicamente.
